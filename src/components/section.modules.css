@@ -1,0 +1,57 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.container {
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+}
+.section-text {
+padding-top: 10vh;
+margin-bottom: auto;
+}
+.para {
+margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+button {
+background-color: rgba(28, 25, 35, 0.8);
+height: 40px;
+width: 256px;
+color: white;
+border-radius: 100px;
+margin-right: 1rem;
+border: none;
+cursor: pointer;
+}
+
+.button2 {
+  background-color: whitesmoke;
+  color: black;
+  margin-top: 1rem;
+}
+
+.buttons {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 2rem;
+  
+}
+
+.downArrow {
+  height: 2rem;
+  animation: animateDown infinite 2s;
+}
+

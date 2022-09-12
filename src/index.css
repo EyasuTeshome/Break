@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  color: #393c41;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+@keyframes animateDown {
+  0%, 25%,50%, 75%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(6px);
+  }
+
+  60% {
+    transform: translateY(3px);
+  }
+}
